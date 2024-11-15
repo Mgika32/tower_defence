@@ -276,7 +276,7 @@ def clear_selection():
   for turret in turret_group:
     turret.selected = False
 
-#crée ke monde
+#crée le monde
 world = World(world_data, map_image)
 world.process_data()
 world.process_enemies()
